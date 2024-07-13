@@ -12,8 +12,8 @@ export type FooterProps = SliceComponentProps<Content.FooterSlice>;
 
 const Footer = ({ slice }: FooterProps): JSX.Element => {
   return (
-    <Bounded as={"footer"} className="w-full pt-20 pb-16 bg-black-100">
-      <div id="contact" className="w-full absolute left-0 -bottom-80 min-h-96">
+    <footer className="w-full pt-20 pb-24 px-10 bg-black-100" id="contact">
+      <div id="contact" className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
           alt="grid"
@@ -60,7 +60,7 @@ const Footer = ({ slice }: FooterProps): JSX.Element => {
           </Link>
         </div>
       </div>
-    </Bounded>
+    </footer>
   );
 };
 
