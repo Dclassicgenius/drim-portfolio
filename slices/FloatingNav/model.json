@@ -1,0 +1,16 @@
+{
+  "id": "floating_nav",
+  "type": "SharedSlice",
+  "name": "FloatingNav",
+  "description": "FloatingNav",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}
